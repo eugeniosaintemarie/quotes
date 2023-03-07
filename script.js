@@ -18,6 +18,7 @@ var listQuotes = [
   { quote: "Tell me what you brag about and I'll tell you what you lack", author: "" },
   { quote: "Do not envy my progress without knowing my sacrifice", author: "" },
   { quote: "An echo in eternity", author: "" },
+  { quote: "If you don't heal what hurt you, you'll bleed on people who didn't cut you", author: "" },
 ];
 
 var currentQuote = 0;
