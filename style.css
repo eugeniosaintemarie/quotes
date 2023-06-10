@@ -15,7 +15,7 @@ body {
 
 button {
   background-color: inherit;
-  color: #333;
+  color: #212121;
   border: none;
   opacity: .3;
 }
@@ -46,6 +46,7 @@ a:hover {
   margin: auto;
   box-sizing: border-box;
   background-color: #fff;
+  opacity: 0.95;
 }
 
 .social-share {
@@ -59,7 +60,7 @@ a:hover {
 .quote-progress {
   width: 0;
   height: 3px;
-  background-color: #333;
+  background-color: #9E9E9E;
 }
 
 blockquote {

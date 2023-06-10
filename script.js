@@ -1,7 +1,7 @@
 var listQuotes = [
   //{ quote: "", author: "" },
-  { quote: "Happiness is like a butterfly which, when pursued, is always beyond our grasp, but, if you will sit down quietly, may alight upon you", author: "Nathaniel Hawthorne" },
   { quote: "Carpe diem, quam minimum credula postero", author: "Horace" },
+  { quote: "Happiness is like a butterfly which, when pursued, is always beyond our grasp, but, if you will sit down quietly, may alight upon you", author: "Nathaniel Hawthorne" },
   { quote: "Each one builds his own faith", author: "" },
   { quote: "Start with the man in the mirror. If you are not wheeling to start then who?", author: "" },
   { quote: "Life is short, life is sweet; life ain't easy, but it's free", author: "Dreamers" },
