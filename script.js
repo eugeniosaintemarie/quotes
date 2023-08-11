@@ -1,17 +1,14 @@
 var listQuotes = [
   //{ quote: "", author: "" },
-  { quote: "Carpe diem, quam minimum credula postero", author: "Horace" },
-  { quote: "Happiness is like a butterfly which, when pursued, is always beyond our grasp, but, if you will sit down quietly, may alight upon you", author: "Nathaniel Hawthorne" },
+  //{ quote: "Carpe diem, quam minimum credula postero", author: "Horace" },
   { quote: "Each one builds his own faith", author: "" },
   { quote: "Start with the man in the mirror. If you are not wheeling to start then who?", author: "" },
   { quote: "Life is short, life is sweet; life ain't easy, but it's free", author: "Dreamers" },
   { quote: "Fortune favors the bold", author: "Turnus" },
   { quote: "Hope is the cruelest torture that prevents you from giving up on life entirely", author: "" },
-  { quote: "I don’t think not living your dream means you have failed at life, and I don’t think living your dream means you have succeeded either", author: "" },
   { quote: "Pleasure does not win over guilt", author: "Friedrich Nietzsche" },
   { quote: "Violent delights have violent ends", author: "William Shakespeare" },
   { quote: "Never take life too seriously. No one gets out alive anyway", author: "Sydney J. Harris" },
-  { quote: "Before sex you help each other get naked, after sex you only dress yourself. Moral of the story: in life no one helps you once you're fucked", author: "" },
   { quote: "Madness as you know is a lot like gravity all it takes is a little push", author: "" },
   { quote: "War doesn't determine who is right, only who is left", author: "Winston Churchill" },
   { quote: "The one who envies also admires", author: "" },
@@ -19,9 +16,6 @@ var listQuotes = [
   { quote: "Do not envy my progress without knowing my sacrifice", author: "" },
   { quote: "An echo in eternity", author: "" },
   { quote: "Lights are on but nobody's home", author: "" },
-  { quote: "If you don't heal what hurt you, you'll bleed on people who didn't cut you", author: "" },
-  { quote: "Success is getting what you want. Happiness is wanting what you get", author: "Dale Carnegie" },
-  { quote: "Because things are the way they are, things will not stay the way they are", author: "Bertolt Brecht" }
   //{ quote: "", author: "" },
 ];
 
