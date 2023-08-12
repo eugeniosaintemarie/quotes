@@ -70,13 +70,13 @@ blockquote {
 
 .quote {
   font-family: "Crimson Text", serif;
-  font-style: italic;
 }
 
 .author {
   font-size: 0.6em;
   font-weight: lighter;
   text-align: right;
+  font-style: italic;
 }
 
 .quote-nav {

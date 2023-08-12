@@ -1,5 +1,4 @@
 var listQuotes = [
-  //{ quote: "", author: "" },
   //{ quote: "Carpe diem, quam minimum credula postero", author: "Horace" },
   { quote: "Each one builds his own faith", author: "" },
   { quote: "Start with the man in the mirror. If you are not wheeling to start then who?", author: "" },
@@ -23,8 +22,8 @@ var currentQuote = 0;
 var progress = setInterval(timerProgress, 10);
 var progressWidth = 0;
 
-// var timeDisplayed = 10000;
-// var timer = setInterval(changeQuote, timeDisplayed);
+//var timeDisplayed = 10000;
+//var timer = setInterval(changeQuote, timeDisplayed);
 
 function timerProgress() {
   $(".quote-progress").width(progressWidth + "%");
@@ -48,7 +47,7 @@ function getRandomQuote() {
 }
 
 function changeQuote() {
-  // $("blockquote").fadeToggle( "slow", "linear" );
+  //$("blockquote").fadeToggle( "slow", "linear" );
   if (currentQuote < listQuotes.length - 1) {
     currentQuote++;
   } else {
