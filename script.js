@@ -1,21 +1,23 @@
 var listQuotes = [
-  //{ quote: "Carpe diem, quam minimum credula postero", author: "Horace" },
-  { quote: "Each one builds his own faith", author: "" },
+  { quote: "Carpe diem, quam minimum credula postero.", author: "Horace" },
+  { quote: "Each one builds his own faith.", author: "" },
   { quote: "Start with the man in the mirror. If you are not wheeling to start then who?", author: "" },
-  { quote: "Life is short, life is sweet; life ain't easy, but it's free", author: "Dreamers" },
-  { quote: "Fortune favors the bold", author: "Turnus" },
-  { quote: "Hope is the cruelest torture that prevents you from giving up on life entirely", author: "" },
-  { quote: "Pleasure does not win over guilt", author: "Friedrich Nietzsche" },
-  { quote: "Violent delights have violent ends", author: "William Shakespeare" },
-  { quote: "Never take life too seriously. No one gets out alive anyway", author: "Sydney J. Harris" },
-  { quote: "Madness as you know is a lot like gravity all it takes is a little push", author: "" },
-  { quote: "War doesn't determine who is right, only who is left", author: "Winston Churchill" },
-  { quote: "The one who envies also admires", author: "" },
-  { quote: "Tell me what you brag about and I'll tell you what you lack", author: "" },
-  { quote: "Do not envy my progress without knowing my sacrifice", author: "" },
-  { quote: "An echo in eternity", author: "" },
-  { quote: "Lights are on but nobody's home", author: "" },
+  { quote: "War doesn't determine who is right, only who is left.", author: "Winston Churchill" },
+  { quote: "Never take life too seriously. No one gets out alive anyway.", author: "Sydney J. Harris" },
+  { quote: "Madness as you know is a lot like gravity, all it takes is a little push.", author: "" },
+  { quote: "Violent delights have violent ends.", author: "William Shakespeare" },
+  { quote: "Pleasure does not win over guilt.", author: "Friedrich Nietzsche" },
+  { quote: "Hope is such a bait, it covers any hook.", author: "Oliver Goldsmithr" }
+  { quote: "Hope is the cruelest torture that prevents you from giving up on life entirely.", author: "" },
+  { quote: "Let us be grateful to the mirror for revealing to us our appearance only.", author: "Samuel Butler" }
+  { quote: "Do not envy my progress without knowing my sacrifice.", author: "" },
+  { quote: "The one who envies also admires.", author: "" },
+  { quote: "Tell me what you brag about and I'll tell you what you lack.", author: "" },
+  { quote: "Fortune favors the bold.", author: "Turnus" },
+  { quote: "Life is short, life is sweet; life ain't easy, but it's free.", author: "Dreamers" },
   //{ quote: "", author: "" },
+  { quote: "An echo in eternity.", author: "" },
+  { quote: "Lights are on but nobody's home.", author: "" }
 ];
 
 var currentQuote = 0;
