@@ -15,9 +15,9 @@ var listQuotes = [
   { quote: "Tell me what you brag about and I'll tell you what you lack.", author: "" },
   { quote: "Fortune favors the bold.", author: "Turnus" },
   { quote: "Life is short, life is sweet; life ain't easy, but it's free.", author: "Dreamers" },
-  //{ quote: "", author: "" },
   { quote: "An echo in eternity.", author: "" },
   { quote: "Lights are on but nobody's home.", author: "" }
+  //{ quote: "", author: "" },
 ];
 
 var currentQuote = 0;
