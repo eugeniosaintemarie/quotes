@@ -16,6 +16,8 @@ var listQuotes = [
   { quote: "The actions of men are the best interpreters of their thoughts", author: "James Joyce" },
   { quote: "Sometimes the absence of alternatives clears the mind marvelously", author: "Henry Kissinger" },
   { quote: "Fortune favors the bold.", author: "Turnus" },
+  { quote: "You can't score if you don't shoot", author: "Glenn Warner" },
+  { quote: "You miss 100 percent of the shots you don't take", author: "Burton W. Kanter" },
   { quote: "Life is short, life is sweet; life ain't easy, but it's free.", author: "Dreamers" },
   { quote: "An echo in eternity.", author: "" },
   { quote: "Lights are on but nobody's home.", author: "" }
