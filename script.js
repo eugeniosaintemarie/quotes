@@ -1,4 +1,5 @@
 var listQuotes = [
+  { quote: "I think, therefore I am", author: "Rene Descartes" },
   { quote: "Carpe diem, quam minimum credula postero", author: "Horace" },
   { quote: "Each one builds his own faith", author: "" },
   { quote: "Start with the man in the mirror. If you are not wheeling to start then who?", author: "" },
