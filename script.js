@@ -22,7 +22,8 @@ var listQuotes = [
   { quote: "You miss 100 percent of the shots you don't take", author: "Burton W. Kanter" },
   { quote: "Life is short, life is sweet; life ain't easy, but it's free", author: "Dreamers" },
   { quote: "An echo in eternity", author: "" },
-  { quote: "Lights are on but nobody's home", author: "" }
+  { quote: "Lights are on but nobody's home", author: "" },
+  { quote: "A smile is a curve that sets everything straight", author: "Phyllis Diller" }
   //{ quote: "", author: "" },
 ];
 
