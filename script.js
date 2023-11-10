@@ -3,6 +3,8 @@ var listQuotes = [
   { quote: "Carpe diem, quam minimum credula postero", author: "Horace" },
   { quote: "Each one builds his own faith", author: "" },
   { quote: "Start with the man in the mirror. If you are not wheeling to start then who?", author: "" },
+  { quote: "A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing", author: "George Bernard Shaw" },
+  { quote: "You always admire what you really don't understand", author: "Blaise Pascal" },
   { quote: "War doesn't determine who is right, only who is left", author: "Winston Churchill" },
   { quote: "Never take life too seriously. No one gets out alive anyway", author: "Sydney J. Harris" },
   { quote: "Madness as you know is a lot like gravity, all it takes is a little push", author: "" },
