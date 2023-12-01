@@ -4,6 +4,7 @@ var listQuotes = [
   { quote: "Each one builds his own faith", author: "" },
   { quote: "Start with the man in the mirror. If you are not wheeling to start then who?", author: "" },
   { quote: "A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing", author: "George Bernard Shaw" },
+  { quote: "Those who do not remember the past are condemned to repeat it", author: "George Santayana" },
   { quote: "You always admire what you really don't understand", author: "Blaise Pascal" },
   { quote: "War doesn't determine who is right, only who is left", author: "Winston Churchill" },
   { quote: "Never take life too seriously. No one gets out alive anyway", author: "Sydney J. Harris" },
