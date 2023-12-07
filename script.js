@@ -27,7 +27,8 @@ var listQuotes = [
   { quote: "Life is short, life is sweet; life ain't easy, but it's free", author: "Dreamers" },
   { quote: "An echo in eternity", author: "" },
   { quote: "Lights are on but nobody's home", author: "" },
-  { quote: "A smile is a curve that sets everything straight", author: "Phyllis Diller" }
+  { quote: "A smile is a curve that sets everything straight", author: "Phyllis Diller" },
+  { quote: "The first wealth is health", author: "Ralph Waldo Emerson" }
   //{ quote: "", author: "" },
 ];
 
