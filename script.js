@@ -28,7 +28,8 @@ var listQuotes = [
   { quote: "An echo in eternity", author: "" },
   { quote: "Lights are on but nobody's home", author: "" },
   { quote: "A smile is a curve that sets everything straight", author: "Phyllis Diller" },
-  { quote: "The first wealth is health", author: "Ralph Waldo Emerson" }
+  { quote: "The first wealth is health", author: "Ralph Waldo Emerson" },
+  { quote: "It is the set of the sails, not the direction of the wind that determines which way we will go", author: "Jim Rohn" }
   //{ quote: "", author: "" },
 ];
 
