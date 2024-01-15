@@ -7,6 +7,7 @@ var listQuotes = [
   { quote: "Those who do not remember the past are condemned to repeat it", author: "George Santayana" },
   { quote: "You always admire what you really don't understand", author: "Blaise Pascal" },
   { quote: "War doesn't determine who is right, only who is left", author: "Winston Churchill" },
+  { quote: "The quality, not the longevity, of one's life is what is important", author: "Martin Luther King, Jr." },
   { quote: "Never take life too seriously. No one gets out alive anyway", author: "Sydney J. Harris" },
   { quote: "Madness as you know is a lot like gravity, all it takes is a little push", author: "" },
   { quote: "Violent delights have violent ends", author: "William Shakespeare" },
