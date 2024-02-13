@@ -1,8 +1,10 @@
 var listQuotes = [
+  { quote: "Words are but the signs of ideas", author: "Samuel Johnson" },
   { quote: "I think, therefore I am", author: "Rene Descartes" },
   { quote: "Carpe diem, quam minimum credula postero", author: "Horace" },
   { quote: "Each one builds his own faith", author: "" },
   { quote: "Start with the man in the mirror. If you are not wheeling to start then who?", author: "" },
+  { quote: "Curiosity will conquer fear even more than bravery will", author: "James Stephens" },
   { quote: "A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing", author: "George Bernard Shaw" },
   { quote: "Those who do not remember the past are condemned to repeat it", author: "George Santayana" },
   { quote: "You always admire what you really don't understand", author: "Blaise Pascal" },
@@ -12,9 +14,9 @@ var listQuotes = [
   { quote: "Madness as you know is a lot like gravity, all it takes is a little push", author: "" },
   { quote: "Violent delights have violent ends", author: "William Shakespeare" },
   { quote: "Pleasure does not win over guilt", author: "Friedrich Nietzsche" },
-  { quote: "Hope is such a bait, it covers any hook", author: "Oliver Goldsmithr" }
+  { quote: "Hope is such a bait, it covers any hook", author: "Oliver Goldsmithr" },
   { quote: "Hope is the cruelest torture that prevents you from giving up on life entirely", author: "" },
-  { quote: "Let us be grateful to the mirror for revealing to us our appearance only", author: "Samuel Butler" }
+  { quote: "Let us be grateful to the mirror for revealing to us our appearance only", author: "Samuel Butler" },
   { quote: "Do not envy my progress without knowing my sacrifice", author: "" },
   { quote: "The one who envies also admires", author: "" },
   { quote: "Tell me what you brag about and I'll tell you what you lack", author: "" },
