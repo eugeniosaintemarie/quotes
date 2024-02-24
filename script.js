@@ -1,6 +1,7 @@
 var listQuotes = [
   { quote: "Words are but the signs of ideas", author: "Samuel Johnson" },
   { quote: "I think, therefore I am", author: "Rene Descartes" },
+  { quote: "The world of reality has its limits; the world of imagination is boundless", author: "Jean-Jacques Rousseau" },
   { quote: "Carpe diem, quam minimum credula postero", author: "Horace" },
   { quote: "Each one builds his own faith", author: "" },
   { quote: "Start with the man in the mirror. If you are not wheeling to start then who?", author: "" },
