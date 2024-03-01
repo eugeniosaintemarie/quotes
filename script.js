@@ -3,6 +3,7 @@ var listQuotes = [
   { quote: "I think, therefore I am", author: "Rene Descartes" },
   { quote: "The world of reality has its limits; the world of imagination is boundless", author: "Jean-Jacques Rousseau" },
   { quote: "Carpe diem, quam minimum credula postero", author: "Horace" },
+  { quote: "You can never plan the future by the past", author: "Edmund Burke" },
   { quote: "Each one builds his own faith", author: "" },
   { quote: "Start with the man in the mirror. If you are not wheeling to start then who?", author: "" },
   { quote: "Curiosity will conquer fear even more than bravery will", author: "James Stephens" },
