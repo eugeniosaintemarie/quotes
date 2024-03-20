@@ -19,6 +19,7 @@ var listQuotes = [
   { quote: "Hope is such a bait, it covers any hook", author: "Oliver Goldsmithr" },
   { quote: "Hope is the cruelest torture that prevents you from giving up on life entirely", author: "" },
   { quote: "Let us be grateful to the mirror for revealing to us our appearance only", author: "Samuel Butler" },
+  { quote: "If you can't handle me at my worst, then you sure as hell don't deserve me at my best", author: "Marilyn Monroe" },
   { quote: "Do not envy my progress without knowing my sacrifice", author: "" },
   { quote: "The one who envies also admires", author: "" },
   { quote: "Tell me what you brag about and I'll tell you what you lack", author: "" },
