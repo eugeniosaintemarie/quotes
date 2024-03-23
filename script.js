@@ -8,6 +8,7 @@ var listQuotes = [
   { quote: "Start with the man in the mirror. If you are not wheeling to start then who?", author: "" },
   { quote: "Curiosity will conquer fear even more than bravery will", author: "James Stephens" },
   { quote: "A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing", author: "George Bernard Shaw" },
+  { quote: "The man who is swimming against the stream knows the strength of it", author: "Woodrow Wilson" },
   { quote: "Those who do not remember the past are condemned to repeat it", author: "George Santayana" },
   { quote: "You always admire what you really don't understand", author: "Blaise Pascal" },
   { quote: "War doesn't determine who is right, only who is left", author: "Winston Churchill" },
