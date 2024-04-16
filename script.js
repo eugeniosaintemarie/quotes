@@ -24,6 +24,7 @@ var listQuotes = [
   { quote: "Do not envy my progress without knowing my sacrifice", author: "" },
   { quote: "The one who envies also admires", author: "" },
   { quote: "Tell me what you brag about and I'll tell you what you lack", author: "" },
+  { quote: "Never retreat. Never explain. Get it done and let them howl", author: "Benjamin Jowett" },
   { quote: "The actions of men are the best interpreters of their thoughts", author: "James Joyce" },
   { quote: "Sometimes the absence of alternatives clears the mind marvelously", author: "Henry Kissinger" },
   { quote: "Don't think about how to spend less, think about how to earn more", author: "" },
