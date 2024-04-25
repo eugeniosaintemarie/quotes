@@ -1,29 +1,33 @@
-var listQuotes = [
-  //{ quote: "Carpe diem, quam minimum credula postero", author: "Horace" },
-  { quote: "Each one builds his own faith", author: "" },
-  { quote: "Start with the man in the mirror. If you are not wheeling to start then who?", author: "" },
-  { quote: "Life is short, life is sweet; life ain't easy, but it's free", author: "Dreamers" },
-  { quote: "Fortune favors the bold", author: "Turnus" },
-  { quote: "Hope is the cruelest torture that prevents you from giving up on life entirely", author: "" },
-  { quote: "Pleasure does not win over guilt", author: "Friedrich Nietzsche" },
-  { quote: "Violent delights have violent ends", author: "William Shakespeare" },
-  { quote: "Never take life too seriously. No one gets out alive anyway", author: "Sydney J. Harris" },
-  { quote: "Madness as you know is a lot like gravity all it takes is a little push", author: "" },
-  { quote: "War doesn't determine who is right, only who is left", author: "Winston Churchill" },
-  { quote: "The one who envies also admires", author: "" },
-  { quote: "Tell me what you brag about and I'll tell you what you lack", author: "" },
-  { quote: "Do not envy my progress without knowing my sacrifice", author: "" },
-  { quote: "An echo in eternity", author: "" },
-  { quote: "Lights are on but nobody's home", author: "" },
-  //{ quote: "", author: "" },
-];
+let listQuotes = [];
+let currentQuote = 0;
+let progress = setInterval(timerProgress, 10);
+let progressWidth = 0;
 
-var currentQuote = 0;
-var progress = setInterval(timerProgress, 10);
-var progressWidth = 0;
+function loadQuotesFromGitHub(rawURL) {
+  return fetch(rawURL)
+    .then(response => response.text())
+    .then(text => {
+      return text.split('\n').map(line => {
+        const [quote, author] = line.split(' - ');
+        return { quote: quote.trim(), author: author.trim() };
+      });
+    });
+}
 
-//var timeDisplayed = 10000;
-//var timer = setInterval(changeQuote, timeDisplayed);
+function setQuote() {
+  $(".quote").html(listQuotes[currentQuote].quote);
+  $(".author-name").html(listQuotes[currentQuote].author);
+  tweetQuote();
+}
+
+function changeQuote() {
+  if (currentQuote < listQuotes.length - 1) {
+    currentQuote++;
+  } else {
+    currentQuote = 0;
+  }
+  setQuote();
+}
 
 function timerProgress() {
   $(".quote-progress").width(progressWidth + "%");
@@ -35,26 +39,12 @@ function timerProgress() {
   }
 }
 
-function setQuote() {
-  $(".quote").html('' + listQuotes[currentQuote].quote + '');
-  $(".author-name").html(listQuotes[currentQuote].author);
-  tweetQuote();
-}
-
-function getRandomQuote() {
-  currentQuote = Math.round(Math.random() * (listQuotes.length));
-  setQuote();
-}
-
-function changeQuote() {
-  //$("blockquote").fadeToggle( "slow", "linear" );
-  if (currentQuote < listQuotes.length - 1) {
-    currentQuote++;
-  } else {
-    currentQuote = 0;
-  }
-  setQuote();
-}
+loadQuotesFromGitHub('https://raw.githubusercontent.com/eugeniosaintemarie/quotes/gh-pages/quotes.txt')
+  .then(quotes => {
+    listQuotes = quotes;
+    setQuote();
+  })
+  .catch(error => console.error('Error loading quotes:', error));
 
 $(".previous").click(function () {
   if (currentQuote > 0) {
@@ -96,5 +86,3 @@ window.twttr = (function (d, s, id) {
 function tweetQuote() {
   $('#quote-tweet').attr('href', 'https://twitter.com/intent/tweet?&text=' + encodeURIComponent('"' + listQuotes[currentQuote].quote + '" ' + listQuotes[currentQuote].author));
 }
-
-setQuote();
