@@ -19,6 +19,7 @@ var listQuotes = [
   { quote: "Pleasure does not win over guilt", author: "Friedrich Nietzsche" },
   { quote: "Hope is such a bait, it covers any hook", author: "Oliver Goldsmithr" },
   { quote: "Hope is the cruelest torture that prevents you from giving up on life entirely", author: "" },
+  { quote: "Sweet mercy is nobility's true badge", author: "William Shakespeare" },
   { quote: "Let us be grateful to the mirror for revealing to us our appearance only", author: "Samuel Butler" },
   { quote: "If you can't handle me at my worst, then you sure as hell don't deserve me at my best", author: "Marilyn Monroe" },
   { quote: "Do not envy my progress without knowing my sacrifice", author: "" },
