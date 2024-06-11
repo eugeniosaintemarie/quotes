@@ -1,7 +1,7 @@
 let listQuotes = [];
 let currentQuote = 0;
-let progress = setInterval(timerProgress, 10);
 let progressWidth = 0;
+let progress;
 
 function loadQuotesFromGitHub(rawURL) {
   return fetch(rawURL)
@@ -15,18 +15,20 @@ function loadQuotesFromGitHub(rawURL) {
 }
 
 function setQuote() {
-  $(".quote").html(listQuotes[currentQuote].quote);
-  $(".author-name").html(listQuotes[currentQuote].author);
-  tweetQuote();
+  if (listQuotes.length > 0) {
+    $(".quote").html(listQuotes[currentQuote].quote);
+    $(".author-name").html(listQuotes[currentQuote].author);
+    tweetQuote();
+  } else {
+    console.error('No quotes available to display.');
+  }
 }
 
 function changeQuote() {
-  if (currentQuote < listQuotes.length - 1) {
-    currentQuote++;
-  } else {
-    currentQuote = 0;
+  if (listQuotes.length > 0) {
+    currentQuote = (currentQuote + 1) % listQuotes.length;
+    setQuote();
   }
-  setQuote();
 }
 
 function timerProgress() {
@@ -39,21 +41,29 @@ function timerProgress() {
   }
 }
 
+function startProgress() {
+  if (progress) clearInterval(progress);
+  progress = setInterval(timerProgress, 10);
+}
+
 loadQuotesFromGitHub('https://raw.githubusercontent.com/eugeniosaintemarie/quotes/gh-pages/quotes.txt')
   .then(quotes => {
     listQuotes = quotes;
-    setQuote();
+    if (listQuotes.length > 0) {
+      setQuote();
+      startProgress();
+    } else {
+      console.error('No quotes loaded from GitHub.');
+    }
   })
   .catch(error => console.error('Error loading quotes:', error));
 
 $(".previous").click(function () {
-  if (currentQuote > 0) {
-    currentQuote--;
-  } else {
-    currentQuote = listQuotes.length - 1;
+  if (listQuotes.length > 0) {
+    currentQuote = (currentQuote - 1 + listQuotes.length) % listQuotes.length;
+    setQuote();
+    progressWidth = 0;
   }
-  setQuote();
-  progressWidth = 0;
 });
 
 $(".next").click(function () {
@@ -62,8 +72,11 @@ $(".next").click(function () {
 });
 
 $(".random").click(function () {
-  getRandomQuote();
-  progressWidth = 0;
+  if (listQuotes.length > 0) {
+    currentQuote = Math.floor(Math.random() * listQuotes.length);
+    setQuote();
+    progressWidth = 0;
+  }
 });
 
 window.twttr = (function (d, s, id) {
@@ -84,5 +97,7 @@ window.twttr = (function (d, s, id) {
 }(document, "script", "twitter-wjs"));
 
 function tweetQuote() {
-  $('#quote-tweet').attr('href', 'https://twitter.com/intent/tweet?&text=' + encodeURIComponent('"' + listQuotes[currentQuote].quote + '" ' + listQuotes[currentQuote].author));
+  if (listQuotes.length > 0) {
+    $('#quote-tweet').attr('href', 'https://twitter.com/intent/tweet?&text=' + encodeURIComponent('"' + listQuotes[currentQuote].quote + '" ' + listQuotes[currentQuote].author));
+  }
 }
