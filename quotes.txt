@@ -1,22 +1,27 @@
-"Words are but the signs of ideas" - Samuel Johnson
-"I think, therefore I am" - Rene Descartes
-"The world of reality has its limits; the world of imagination is boundless" - Jean-Jacques Rousseau
 "Carpe diem, quam minimum credula postero" - Horace
 "If the future doesn't excite you, then you are not in the present" - Ursula Le Guin
 "You can never plan the future by the past" - Edmund Burke
+"Those who do not remember the past are condemned to repeat it" - George Santayana
 "Each one builds his own faith" - 
 "Start with the man in the mirror. If you are not wheeling to start then who?" - 
-"Curiosity will conquer fear even more than bravery will" - James Stephens
+"It is not the mountain we conquer but ourselves" - Edmund Hillary
+"All great achievements require time" - Maya Angelou
+"Many of life's failures are people who did not realize how close they were to success when they gave up" - Thomas A. Edison
 "A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing" - George Bernard Shaw
 "The man who is swimming against the stream knows the strength of it" - Woodrow Wilson
-"Those who do not remember the past are condemned to repeat it" - George Santayana
-"You always admire what you really don't understand" - Blaise Pascal
-"War doesn't determine who is right, only who is left" - Winston Churchill
+"Curiosity will conquer fear even more than bravery will" - James Stephens
+"Courage is fear holding on a minute longer" - George S. Patton
+"Things start out as hopes and end up as habits" - Lillian Hellman
 "The quality, not the longevity, of one's life is what is important" - Martin Luther King, Jr.
 "Never take life too seriously. No one gets out alive anyway" - Sydney J. Harris
 "Madness as you know is a lot like gravity, all it takes is a little push" - 
 "Violent delights have violent ends" - William Shakespeare
 "Pleasure does not win over guilt" - Friedrich Nietzsche
+"Doubt is the father of invention" - Ambrose Bierce
+"You always admire what you really don't understand" - Blaise Pascal
+"He who angers you conquers you" - Elizabeth Kenny
+"If you can't stand the heat, get out of the kitchen" - Harry S Truman
+"War doesn't determine who is right, only who is left" - Winston Churchill
 "Hope is such a bait, it covers any hook" - Oliver Goldsmithr
 "Hope is the cruelest torture that prevents you from giving up on life entirely" - 
 "Sweet mercy is nobility's true badge" - William Shakespeare
@@ -39,3 +44,7 @@
 "A smile is a curve that sets everything straight" - Phyllis Diller
 "The first wealth is health" - Ralph Waldo Emerson
 "It is the set of the sails, not the direction of the wind that determines which way we will go" - Jim Rohn
+"Words are but the signs of ideas" - Samuel Johnson
+"Words are but pictures of our thoughts" - John Dryden
+"The world of reality has its limits; the world of imagination is boundless" - Jean-Jacques Rousseau
+"I think, therefore I am" - Rene Descartes
