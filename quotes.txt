@@ -20,7 +20,9 @@
 "You have succeeded in life when all you really want is only what you really need" - Vernon Howard
 "The more sand that has escaped from the hourglass of our life, the clearer we should see through it" - Jean Paul
 "The man who is swimming against the stream knows the strength of it" - Woodrow Wilson
+"The undertaking of a new action brings new strength" - Richard L. Evans
 "Curiosity will conquer fear even more than bravery will" - James Stephens
+"If you do not conquer self, you will be conquered by self" - Napoleon Hill
 "The absence of alternatives clears the mind marvelously" - Henry Kissinger
 "Courage is fear holding on a minute longer" - George S. Patton
 "Hope is but the dream of those who wake" - Matthew Prior
@@ -29,6 +31,7 @@
 "Ambition is but avarice on stilts, and masked" - Walter Savage Landor
 "The quality, not the longevity, of one's life is what is important" - Martin Luther King, Jr.
 "Never take life too seriously. No one gets out alive anyway" - Sydney J. Harris
+"We relish news of our heroes, forgetting that we are extraordinary to somebody too" - Helen Hayes
 "Madness as you know is a lot like gravity, all it takes is a little push" - 
 "Violent delights have violent ends" - William Shakespeare
 "Pleasure does not win over guilt" - Friedrich Nietzsche
@@ -46,6 +49,7 @@
 "Hope is such a bait, it covers any hook" - Oliver Goldsmithr
 "Hope is the cruelest torture that prevents you from giving up on life entirely" - 
 "Sweet mercy is nobility's true badge" - William Shakespeare
+"Silent gratitude isn't much use to anyone" - Gertrude Stein
 "Let us be grateful to the mirror for revealing to us our appearance only" - Samuel Butler
 "If you can't handle me at my worst, then you sure as hell don't deserve me at my best" - Marilyn Monroe
 "Do not envy my progress without knowing my sacrifice" - 
@@ -74,3 +78,4 @@
 "Words are but pictures of our thoughts" - John Dryden
 "The world of reality has its limits; the world of imagination is boundless" - Jean-Jacques Rousseau
 "I think, therefore I am" - Rene Descartes
+"True originality consists not in a new manner but in a new vision" - Edith Wharton
