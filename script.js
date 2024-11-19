@@ -46,7 +46,7 @@ function startProgress() {
   progress = setInterval(timerProgress, 10);
 }
 
-loadQuotesFromGitHub('https://raw.githubusercontent.com/eugeniosaintemarie/quotes/gh-pages/quotes.txt')
+loadQuotesFromGitHub('./quotes.txt')
   .then(quotes => {
     listQuotes = quotes;
     if (listQuotes.length > 0) {
