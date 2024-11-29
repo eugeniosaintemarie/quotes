@@ -1,46 +1,48 @@
-"Carpe diem, quam minimum credula postero" - Horace
-"This is the precept by which I have lived: Prepare for the worst; expect the best; and take what comes" - Hannah Arendt
-"If the future doesn't excite you, then you are not in the present" - Ursula Le Guin
+"This is the precept by which I have lived: prepare for the worst; expect the best; and take what comes" - Hannah Arendt
+"I am prepared for the worst, but hope for the best" - Benjamin Disraeli
 "I never think of the future - it comes soon enough" - Albert Einstein
+"If the future doesn't excite you, then you are not in the present" - Ursula Le Guin
 "One cannot and must not try to erase the past merely because it does not fit the present" - Golda Meir
-"You can never plan the future by the past" - Edmund Burke
 "Those who do not remember the past are condemned to repeat it" - George Santayana
+"You can never plan the future by the past" - Edmund Burke
 "Living in dreams of yesterday, we find ourselves still dreaming of impossible future conquests" - Charles Lindbergh
-"Each one builds his own faith" - 
-"Start with the man in the mirror. If you are not wheeling to start then who?" - 
-"You will never win if you never begin" - Helen Rowland
-"It is not the mountain we conquer but ourselves" - Edmund Hillary
 "All great achievements require time" - Maya Angelou
 "Patience is the companion of wisdom" - Saint Augustine
-"Success - keeping your mind awake and your desire asleep" - Walter Scott
-"Many of life's failures are people who did not realize how close they were to success when they gave up" - Thomas A. Edison
+"Each one builds his own faith" - 
+"Start with the man in the mirror. If you are not wheeling to start then who?" - 
+"It is not the mountain we conquer but ourselves" - Edmund Hillary
+"Whatever you're not changing, you're choosing" - Laurie Buchanan
+"You will never win if you never begin" - Helen Rowland
+"You can't score if you don't shoot" - Glenn Warner
+"You miss 100 percent of the shots you don't take" - Burton W. Kanter
 "One fails forward toward success" - Charles Kettering
 "A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing" - George Bernard Shaw
-"Blessed is the man, who having nothing to say, abstains from giving wordy evidence of the fact" - George Eliot
-"You have succeeded in life when all you really want is only what you really need" - Vernon Howard
+"Many of life's failures are people who did not realize how close they were to success when they gave up" - Thomas A. Edison
 "The more sand that has escaped from the hourglass of our life, the clearer we should see through it" - Jean Paul
+"Success - keeping your mind awake and your desire asleep" - Walter Scott
+"You have succeeded in life when all you really want is only what you really need" - Vernon Howard
 "The man who is swimming against the stream knows the strength of it" - Woodrow Wilson
 "The undertaking of a new action brings new strength" - Richard L. Evans
+"Doubt is the father of invention" - Ambrose Bierce
 "Curiosity will conquer fear even more than bravery will" - James Stephens
+"Courage is fear holding on a minute longer" - George S. Patton
 "If you do not conquer self, you will be conquered by self" - Napoleon Hill
 "The absence of alternatives clears the mind marvelously" - Henry Kissinger
-"Courage is fear holding on a minute longer" - George S. Patton
 "Hope is but the dream of those who wake" - Matthew Prior
+"Blessed is the man, who having nothing to say, abstains from giving wordy evidence of the fact" - George Eliot
 "A great deal of intelligence can be invested in ignorance when the need for illusion is deep" - Saul Bellow
 "Things start out as hopes and end up as habits" - Lillian Hellman
 "Ambition is but avarice on stilts, and masked" - Walter Savage Landor
 "The quality, not the longevity, of one's life is what is important" - Martin Luther King, Jr.
-"Never take life too seriously. No one gets out alive anyway" - Sydney J. Harris
 "We relish news of our heroes, forgetting that we are extraordinary to somebody too" - Helen Hayes
+"Never take life too seriously. No one gets out alive anyway" - Sydney J. Harris
 "Madness as you know is a lot like gravity, all it takes is a little push" - 
 "Violent delights have violent ends" - William Shakespeare
 "Pleasure does not win over guilt" - Friedrich Nietzsche
-"Doubt is the father of invention" - Ambrose Bierce
 "Lend yourself to others, but give yourself to yourself" - Michel de Montaigne
 "You always admire what you really don't understand" - Blaise Pascal
-"He who angers you conquers you" - Elizabeth Kenny
 "I have no methods; all I do is accept people as they are" - Joan Rivers
-"I am prepared for the worst, but hope for the best" - Benjamin Disraeli
+"He who angers you conquers you" - Elizabeth Kenny
 "If you can't stand the heat, get out of the kitchen" - Harry S Truman
 "The finest steel has to go through the hottest fire" - Richard M. Nixon
 "The aim of education is the knowledge, not of facts, but of values" - William Inge
@@ -54,20 +56,18 @@
 "If you can't handle me at my worst, then you sure as hell don't deserve me at my best" - Marilyn Monroe
 "Do not envy my progress without knowing my sacrifice" - 
 "The one who envies also admires" - 
+"The thermometer of success is merely the jealousy of the malcontents" - Salvador Dali
 "Tell me what you brag about and I'll tell you what you lack" - 
 "Never retreat. Never explain. Get it done and let them howl" - Benjamin Jowett
 "The actions of men are the best interpreters of their thoughts" - James Joyce
 "What happens is not as important as how you react to what happens" - Ellen Glasgow
 "Sometimes the absence of alternatives clears the mind marvelously" - Henry Kissinger
-"Don't think about how to spend less, think about how to earn more" - 
 "The hardest thing is to take less when you can get more" - Kin Hubbard
+"Don't think about how to spend less, think about how to earn more" - 
 "The young man knows the rules, but the old man knows the exceptions" - Oliver Wendell Holmes, Sr
-"Fortune favors the bold" - Turnus
-"Veni, vidi, vici" - Julius Caesar
-"You can't score if you don't shoot" - Glenn Warner
-"You miss 100 percent of the shots you don't take" - Burton W. Kanter
 "Life without liberty is like a body without spirit" - Khalil Gibran
 "Change before you have to" - Jack Welch
+"Who covets more is evermore a slave" - Robert Herrick
 "Life is short, life is sweet; life ain't easy, but it's free" - Dreamers
 "An echo in eternity" - 
 "Lights are on but nobody's home" - 
@@ -77,5 +77,8 @@
 "Words are but the signs of ideas" - Samuel Johnson
 "Words are but pictures of our thoughts" - John Dryden
 "The world of reality has its limits; the world of imagination is boundless" - Jean-Jacques Rousseau
-"I think, therefore I am" - Rene Descartes
 "True originality consists not in a new manner but in a new vision" - Edith Wharton
+"I think, therefore I am" - Rene Descartes
+"Carpe diem, quam minimum credula postero" - Horace
+"Fortune favors the bold" - Turnus
+"Veni, vidi, vici" - Julius Caesar
