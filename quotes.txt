@@ -19,6 +19,7 @@
 "One fails forward toward success" - Charles Kettering
 "A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing" - George Bernard Shaw
 "Many of life's failures are people who did not realize how close they were to success when they gave up" - Thomas A. Edison
+"When one teaches, two learn" - Robert Half
 "The more sand that has escaped from the hourglass of our life, the clearer we should see through it" - Jean Paul
 "Success - keeping your mind awake and your desire asleep" - Walter Scott
 "You have succeeded in life when all you really want is only what you really need" - Vernon Howard
@@ -27,6 +28,7 @@
 "Doubt is the father of invention" - Ambrose Bierce
 "Curiosity will conquer fear even more than bravery will" - James Stephens
 "Courage is fear holding on a minute longer" - George S. Patton
+"Courage is found in unlikely places" - J. R. R. Tolkien
 "If you do not conquer self, you will be conquered by self" - Napoleon Hill
 "The absence of alternatives clears the mind marvelously" - Henry Kissinger
 "Hope is but the dream of those who wake" - Matthew Prior
@@ -72,8 +74,10 @@
 "Life is short, life is sweet; life ain't easy, but it's free" - Dreamers
 "An echo in eternity" - 
 "Lights are on but nobody's home" - 
+"We shall never know all the good that a simple smile can do" - Mother Teresa
 "A smile is a curve that sets everything straight" - Phyllis Diller
 "The first wealth is health" - Ralph Waldo Emerson
+"Wisdom outweighs any wealth" - Sophocles
 "It is the set of the sails, not the direction of the wind that determines which way we will go" - Jim Rohn
 "Words are but the signs of ideas" - Samuel Johnson
 "Words are but pictures of our thoughts" - John Dryden
