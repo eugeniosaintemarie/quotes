@@ -46,17 +46,27 @@ function startProgress() {
   progress = setInterval(timerProgress, 10);
 }
 
-loadQuotesFromGitHub('./quotes.txt')
-  .then(quotes => {
-    listQuotes = quotes;
-    if (listQuotes.length > 0) {
-      setQuote();
-      startProgress();
+$(document).ready(function() {
+  $.get('./quotes.txt', function(data) {
+    var quotes = data.split('\n').map(function(line) {
+      var parts = line.split(' - ');
+      return {
+        quote: parts[0].trim(),
+        author: parts[1] ? parts[1].trim() : 'Unknown'
+      };
+    });
+
+    if (quotes.length > 0) {
+      var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+      $('.quote').text(randomQuote.quote);
+      $('.author-name').text(randomQuote.author);
     } else {
-      console.error('No quotes loaded from GitHub.');
+      console.error('No valid quotes found.');
     }
-  })
-  .catch(error => console.error('Error loading quotes:', error));
+  }).fail(function() {
+    console.error('Error loading quotes.');
+  });
+});
 
 $(".previous").click(function () {
   if (listQuotes.length > 0) {
