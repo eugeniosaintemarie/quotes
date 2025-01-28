@@ -8,9 +8,19 @@ function loadQuotesFromGitHub(rawURL) {
     .then(response => response.text())
     .then(text => {
       return text.split('\n').map(line => {
-        const [quote, author] = line.split(' - ');
-        return { quote: quote.trim(), author: author.trim() };
-      });
+        if (line.includes(' - ')) {
+          const [quote, author] = line.split(' - ');
+          return {
+            quote: quote.trim(),
+            author: author ? author.trim() : " ",
+          };
+        } else {
+          return {
+            quote: line.trim(),
+            author: " ",
+          };
+        }
+      }).filter(quoteObj => quoteObj.quote !== "");
     });
 }
 
@@ -46,27 +56,17 @@ function startProgress() {
   progress = setInterval(timerProgress, 10);
 }
 
-$(document).ready(function() {
-  $.get('./quotes.txt', function(data) {
-    var quotes = data.split('\n').map(function(line) {
-      var parts = line.split(' - ');
-      return {
-        quote: parts[0].trim(),
-        author: parts[1] ? parts[1].trim() : 'Unknown'
-      };
-    });
-
-    if (quotes.length > 0) {
-      var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-      $('.quote').text(randomQuote.quote);
-      $('.author-name').text(randomQuote.author);
+loadQuotesFromGitHub('./quotes.txt')
+  .then(quotes => {
+    listQuotes = quotes;
+    if (listQuotes.length > 0) {
+      setQuote();
+      startProgress();
     } else {
-      console.error('No valid quotes found.');
+      console.error('No quotes loaded from GitHub.');
     }
-  }).fail(function() {
-    console.error('Error loading quotes.');
-  });
-});
+  })
+  .catch(error => console.error('Error loading quotes:', error));
 
 $(".previous").click(function () {
   if (listQuotes.length > 0) {
